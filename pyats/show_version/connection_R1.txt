@@ -1,0 +1,333 @@
+[2022-01-16 17:39:19,503] +++ R1 logfile show_version/connection_R1.txt +++
+[2022-01-16 17:39:19,504] +++ Unicon plugin ios +++
+Unable to negotiate with 10.0.0.1 port 22: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1
+
+[2022-01-16 17:39:19,672] +++ connection to spawn: ssh -l cisco 10.0.0.1, id: 139944084830192 +++
+[2022-01-16 17:39:19,673] connection to R1
+[2022-01-16 17:43:21,904] +++ R1 logfile show_version/connection_R1.txt +++
+[2022-01-16 17:43:21,904] +++ Unicon plugin ios +++
+Unable to negotiate with 10.0.0.1 port 22: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1
+
+[2022-01-16 17:43:21,995] +++ connection to spawn: ssh -l cisco 10.0.0.1, id: 140015167395824 +++
+[2022-01-16 17:43:21,996] connection to R1
+[2022-01-16 18:03:31,825] +++ R1 logfile show_version/connection_R1.txt +++
+[2022-01-16 18:03:31,826] +++ Unicon plugin ios +++
+Unable to negotiate with 10.0.0.1 port 22: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1
+
+[2022-01-16 18:03:31,932] +++ connection to spawn: ssh -l cisco 10.0.0.1, id: 140374827141056 +++
+[2022-01-16 18:03:31,933] connection to R1
+[2022-01-16 18:04:16,542] +++ R1 logfile show_version/connection_R1.txt +++
+[2022-01-16 18:04:16,543] +++ Unicon plugin ios +++
+Unable to negotiate with 10.0.0.1 port 22: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1
+
+[2022-01-16 18:04:16,637] +++ connection to spawn: ssh -l cisco 10.0.0.1, id: 139810319689712 +++
+[2022-01-16 18:04:16,638] connection to R1
+[2022-01-16 18:10:12,692] +++ R1 logfile show_version/connection_R1.txt +++
+[2022-01-16 18:10:12,693] +++ Unicon plugin ios +++
+Warning: Permanently added '10.0.0.1' (RSA) to the list of known hosts.
+
+[2022-01-16 18:10:12,817] +++ connection to spawn: ssh -l cisco 10.0.0.1, id: 140507409434608 +++
+[2022-01-16 18:10:12,818] connection to R1
+Password: 
+
+R1>
+[2022-01-16 18:10:13,128] +++ initializing handle +++
+enable
+Password: 
+R1#
+[2022-01-16 18:10:13,341] +++ R1: executing command 'term length 0' +++
+term length 0
+R1#
+[2022-01-16 18:10:13,580] +++ R1: executing command 'term width 0' +++
+term width 0
+R1#
+[2022-01-16 18:10:13,812] +++ R1: executing command 'show version' +++
+show version
+Cisco IOS Software, 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2010 by Cisco Systems, Inc.
+Compiled Tue 17-Aug-10 12:08 by prod_rel_team
+
+ROM: ROMMON Emulation Microcode
+ROM: 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)
+
+R1 uptime is 10 hours, 52 minutes
+System returned to ROM by unknown reload cause - suspect boot_data[BOOT_COUNT] 0x0, BOOT_COUNT 0, BOOTDATA 19
+System image file is "tftp://255.255.255.255/unknown"
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+Cisco 3725 (R7000) processor (revision 0.1) with 124928K/6144K bytes of memory.
+Processor board ID FTX0945W0MY
+R7000 CPU at 240MHz, Implementation 39, Rev 2.1, 256KB L2, 512KB L3 Cache
+3 FastEthernet interfaces
+4 Serial interfaces
+3 Serial(sync/async) interfaces
+DRAM configuration is 64 bits wide with parity enabled.
+55K bytes of NVRAM.
+
+Configuration register is 0x2102
+
+R1#
+[2022-01-16 18:10:15,818] +++ R1: executing command 'show version' +++
+show version
+Cisco IOS Software, 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2010 by Cisco Systems, Inc.
+Compiled Tue 17-Aug-10 12:08 by prod_rel_team
+
+ROM: ROMMON Emulation Microcode
+ROM: 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)
+
+R1 uptime is 10 hours, 53 minutes
+System returned to ROM by unknown reload cause - suspect boot_data[BOOT_COUNT] 0x0, BOOT_COUNT 0, BOOTDATA 19
+System image file is "tftp://255.255.255.255/unknown"
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+Cisco 3725 (R7000) processor (revision 0.1) with 124928K/6144K bytes of memory.
+Processor board ID FTX0945W0MY
+R7000 CPU at 240MHz, Implementation 39, Rev 2.1, 256KB L2, 512KB L3 Cache
+3 FastEthernet interfaces
+4 Serial interfaces
+3 Serial(sync/async) interfaces
+DRAM configuration is 64 bits wide with parity enabled.
+55K bytes of NVRAM.
+
+Configuration register is 0x2102
+
+R1#
+[2022-01-17 03:26:22,121] +++ R1 logfile show_version/connection_R1.txt +++
+[2022-01-17 03:26:22,122] +++ Unicon plugin ios +++
+Warning: Permanently added '10.0.0.1' (RSA) to the list of known hosts.
+
+[2022-01-17 03:26:22,422] +++ connection to spawn: ssh -l cisco 10.0.0.1, id: 140094916995008 +++
+[2022-01-17 03:26:22,423] connection to R1
+Password: 
+
+R1>
+[2022-01-17 03:26:22,794] +++ initializing handle +++
+enable
+Password: 
+R1#
+[2022-01-17 03:26:23,031] +++ R1: executing command 'term length 0' +++
+term length 0
+R1#
+[2022-01-17 03:26:23,287] +++ R1: executing command 'term width 0' +++
+term width 0
+R1#
+[2022-01-17 03:26:23,509] +++ R1: executing command 'show version' +++
+show version
+Cisco IOS Software, 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2010 by Cisco Systems, Inc.
+Compiled Tue 17-Aug-10 12:08 by prod_rel_team
+
+ROM: ROMMON Emulation Microcode
+ROM: 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)
+
+R1 uptime is 20 hours, 9 minutes
+System returned to ROM by unknown reload cause - suspect boot_data[BOOT_COUNT] 0x0, BOOT_COUNT 0, BOOTDATA 19
+System image file is "tftp://255.255.255.255/unknown"
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+Cisco 3725 (R7000) processor (revision 0.1) with 124928K/6144K bytes of memory.
+Processor board ID FTX0945W0MY
+R7000 CPU at 240MHz, Implementation 39, Rev 2.1, 256KB L2, 512KB L3 Cache
+3 FastEthernet interfaces
+4 Serial interfaces
+3 Serial(sync/async) interfaces
+DRAM configuration is 64 bits wide with parity enabled.
+55K bytes of NVRAM.
+
+Configuration register is 0x2102
+
+R1#
+[2022-01-17 03:26:24,333] +++ R1: executing command 'show version' +++
+show version
+Cisco IOS Software, 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2010 by Cisco Systems, Inc.
+Compiled Tue 17-Aug-10 12:08 by prod_rel_team
+
+ROM: ROMMON Emulation Microcode
+ROM: 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)
+
+R1 uptime is 20 hours, 9 minutes
+System returned to ROM by unknown reload cause - suspect boot_data[BOOT_COUNT] 0x0, BOOT_COUNT 0, BOOTDATA 19
+System image file is "tftp://255.255.255.255/unknown"
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+Cisco 3725 (R7000) processor (revision 0.1) with 124928K/6144K bytes of memory.
+Processor board ID FTX0945W0MY
+R7000 CPU at 240MHz, Implementation 39, Rev 2.1, 256KB L2, 512KB L3 Cache
+3 FastEthernet interfaces
+4 Serial interfaces
+3 Serial(sync/async) interfaces
+DRAM configuration is 64 bits wide with parity enabled.
+55K bytes of NVRAM.
+
+Configuration register is 0x2102
+
+R1#
+[2022-01-17 08:11:43,444] +++ R1 logfile show_version/connection_R1.txt +++
+[2022-01-17 08:11:43,445] +++ Unicon plugin ios +++
+Warning: Permanently added '10.0.0.1' (RSA) to the list of known hosts.
+
+[2022-01-17 08:11:43,710] +++ connection to spawn: ssh -l cisco 10.0.0.1, id: 139651588982720 +++
+[2022-01-17 08:11:43,711] connection to R1
+Password: 
+
+R1>
+[2022-01-17 08:11:44,076] +++ initializing handle +++
+enable
+Password: 
+R1#
+[2022-01-17 08:11:44,284] +++ R1: executing command 'term length 0' +++
+term length 0
+R1#
+[2022-01-17 08:11:44,533] +++ R1: executing command 'term width 0' +++
+term width 0
+R1#
+[2022-01-17 08:11:44,768] +++ R1: executing command 'show version' +++
+show version
+Cisco IOS Software, 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2010 by Cisco Systems, Inc.
+Compiled Tue 17-Aug-10 12:08 by prod_rel_team
+
+ROM: ROMMON Emulation Microcode
+ROM: 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)
+
+R1 uptime is 1 day, 54 minutes
+System returned to ROM by unknown reload cause - suspect boot_data[BOOT_COUNT] 0x0, BOOT_COUNT 0, BOOTDATA 19
+System image file is "tftp://255.255.255.255/unknown"
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+Cisco 3725 (R7000) processor (revision 0.1) with 124928K/6144K bytes of memory.
+Processor board ID FTX0945W0MY
+R7000 CPU at 240MHz, Implementation 39, Rev 2.1, 256KB L2, 512KB L3 Cache
+3 FastEthernet interfaces
+4 Serial interfaces
+3 Serial(sync/async) interfaces
+DRAM configuration is 64 bits wide with parity enabled.
+55K bytes of NVRAM.
+
+Configuration register is 0x2102
+
+R1#
+[2022-01-17 08:11:45,586] +++ R1: executing command 'show version' +++
+show version
+Cisco IOS Software, 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2010 by Cisco Systems, Inc.
+Compiled Tue 17-Aug-10 12:08 by prod_rel_team
+
+ROM: ROMMON Emulation Microcode
+ROM: 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)
+
+R1 uptime is 1 day, 54 minutes
+System returned to ROM by unknown reload cause - suspect boot_data[BOOT_COUNT] 0x0, BOOT_COUNT 0, BOOTDATA 19
+System image file is "tftp://255.255.255.255/unknown"
+
+
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+Cisco 3725 (R7000) processor (revision 0.1) with 124928K/6144K bytes of memory.
+Processor board ID FTX0945W0MY
+R7000 CPU at 240MHz, Implementation 39, Rev 2.1, 256KB L2, 512KB L3 Cache
+3 FastEthernet interfaces
+4 Serial interfaces
+3 Serial(sync/async) interfaces
+DRAM configuration is 64 bits wide with parity enabled.
+55K bytes of NVRAM.
+
+Configuration register is 0x2102
+
+R1#
